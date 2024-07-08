@@ -1,3 +1,4 @@
+import java.sql.Time;
 import java.util.Random;
 
 public class game {
@@ -44,7 +45,15 @@ public class game {
         StdDraw.text(1.5, 1.5, "O goes first");
         StdDraw.setPenColor(StdDraw.RED);
       }
-      makeMove();
+      long delayMillis = 2000; 
+
+        long startTime = System.currentTimeMillis();
+        long endTime = startTime + delayMillis;
+
+        while (System.currentTimeMillis() < endTime) {
+            
+        }
+        StdDraw.clear();
   
   }
 
