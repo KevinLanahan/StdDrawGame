@@ -1,1 +1,3 @@
-Uses the StdLibrary to create a GUI in java that displays a tic tac toe game
+-Uses the StdLibrary to create a GUI in java that displays a tic tac toe game
+-To be able to run this code make sure you have the StdLib downloaded
+-If you do not have it, heres a link to the download:  https://introcs.cs.princeton.edu/java/stdlib/
